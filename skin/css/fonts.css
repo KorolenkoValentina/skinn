@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Stsong-Lite.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Inter-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Style Script';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/StyleScript-Regular.ttf") format("opentype");
+}
