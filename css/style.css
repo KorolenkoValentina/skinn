@@ -1,0 +1,735 @@
+@import 'fonts.css';
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 50;
+}
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.header__body {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.header__body .header__logo {
+  position: relative;
+  left: -50px;
+  bottom: 10px;
+  width: 100%;
+  z-index: 3;
+}
+.header__body .btn-primary {
+  position: relative;
+  z-index: 2;
+  top: -32px;
+  left: -26px;
+}
+
+.header__menu {
+  margin: 0 auto;
+}
+.header__menu .header__list {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.header__menu .header__list li {
+  list-style: none;
+  margin: 0 0 0 45px;
+}
+.header__menu .header__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 115%;
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.baner {
+  display: flex;
+  position: relative;
+  margin: 80px 0 21px;
+}
+.baner .baner-content {
+  margin-top: 152px;
+  position: absolute;
+  max-width: 501px;
+}
+.baner .baner-content .baner-content__title {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 88px;
+  line-height: 135%;
+  color: #000;
+}
+.baner .baner-content .baner-content__title span {
+  position: absolute;
+  font-family: "Style Script";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 175px;
+  line-height: 104%;
+  text-align: right;
+  right: -137.57px;
+  top: 239px;
+  color: #68513F;
+  transform: rotate(5.54deg);
+}
+.baner .baner-img {
+  margin-left: 352px;
+}
+
+.btn-primary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #68513F;
+  background: #F1EBE7;
+  border: 1px solid #DACEC6;
+  margin-top: 32px;
+  padding: 13px 21px;
+}
+.btn-primary:hover {
+  background-color: #68513F;
+  color: #F1EBE7;
+  border: 1px solid #68513F;
+}
+
+.scincare {
+  position: relative;
+  margin-bottom: 239px;
+}
+.scincare .scincare-content {
+  max-width: 649px;
+  text-align: center;
+  margin: 237px 292px 0;
+}
+.scincare .content__title {
+  max-width: 513px;
+}
+.scincare .content__title span {
+  position: absolute;
+  left: calc(50% - 220px + 6.5px);
+  top: 188.67px;
+  transform: rotate(-5.08deg);
+}
+.scincare .content__subtitle {
+  margin-top: 142px;
+}
+.scincare .btn-primary {
+  border-radius: 73px;
+}
+.scincare .img-fluid {
+  position: absolute;
+}
+.scincare .img-first {
+  left: -1.03%;
+  right: 78.68%;
+  top: calc(50% - 91.5px - 264.5px);
+}
+.scincare .img-second {
+  left: 4%;
+  right: 74.65%;
+  top: calc(50% - 110px + 125px);
+}
+.scincare .img-third {
+  left: 69.97%;
+  right: 17.99%;
+  top: calc(50% - 100.5px - 351.5px);
+}
+.scincare .img-forth {
+  left: 76.67%;
+  right: 7.99%;
+  top: calc(50% - 57px - 150px);
+}
+.scincare .img-fifth {
+  left: 72.56%;
+  right: 14.03%;
+  top: calc(50% - 110px + 206px);
+}
+
+.content__title {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 65px;
+  line-height: 151%;
+  color: #000;
+  margin: 0 auto;
+}
+.content__title span {
+  display: block;
+  font-family: "Style Script";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 137px;
+  line-height: 82%;
+  color: #68513F;
+}
+
+.content__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000;
+}
+
+.product .content__title {
+  text-align: center;
+  margin: 96px auto 58px;
+}
+
+.card {
+  min-height: 482px;
+  background-color: #E7DED8;
+}
+.card .card-img-top {
+  padding: 10px;
+}
+.card .card__price {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card__price p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 151%;
+  text-transform: uppercase;
+  color: #000;
+}
+.card .card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 19px;
+  line-height: 137%;
+  color: #000;
+}
+.card .btn-primary {
+  width: 100%;
+}
+
+.feature-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+.feature-products .text-box {
+  max-width: 434px;
+  text-align: center;
+  margin-right: 60px;
+}
+.feature-products .text-box .content__subtitle {
+  font-size: 17px;
+  line-height: 180%;
+}
+.feature-products .text-box .btn-primary {
+  margin-top: 39px;
+}
+
+.brands-block {
+  max-width: 832px;
+  margin: 202px auto 0;
+}
+.brands-block p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 66px;
+}
+
+.template-brands {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 209px;
+}
+
+.card-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 92px;
+}
+
+.scinn .content__title {
+  font-size: 66px;
+  text-align: center;
+}
+
+.scinn-blog {
+  display: flex;
+  justify-content: space-between;
+  margin: 51px 0 127px;
+}
+.scinn-blog .scinn-blog__first,
+.scinn-blog .scinn-blog__second {
+  display: flex;
+}
+.scinn-blog .scinn-blog__content {
+  max-width: 253px;
+  margin-left: 29px;
+}
+.scinn-blog .scinn-blog__subtitle {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 28px;
+  line-height: 130%;
+  color: #000;
+}
+.scinn-blog .btn-primary {
+  border-radius: 73px;
+}
+
+.footer-module {
+  display: flex;
+  justify-content: space-around;
+  height: 353px;
+  background: #E7DED8;
+  border-radius: 10px;
+  margin-bottom: 62px;
+}
+.footer-module .logo {
+  margin-top: 50px;
+}
+.footer-module .logo p {
+  max-width: 160px;
+  margin: 21px 0 57px;
+}
+.footer-module .footer__title {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 24px;
+  line-height: 163%;
+  color: #000;
+  margin-top: 50px;
+}
+.footer-module p {
+  max-width: 222px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000;
+  margin-bottom: 39px;
+}
+.footer-module p span {
+  color: #68513F;
+}
+.footer-module .information {
+  display: flex;
+  margin-left: -31px;
+}
+.footer-module .nav-menu {
+  list-style: none;
+}
+.footer-module .nav-menu li {
+  margin-bottom: 9px;
+}
+.footer-module .nav-menu a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 13px;
+  line-height: 151%;
+  color: #000;
+  text-decoration: none;
+}
+.footer-module .nav-menu a:hover {
+  color: #fff;
+}
+
+.timetable p {
+  margin-bottom: 9px;
+}
+
+.social {
+  width: 191px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-image: url("../img/social.svg");
+  margin-top: 71px;
+}
+
+.social a {
+  position: relative;
+  display: block;
+  transition: 0.3s ease-in-out;
+  width: 22px;
+  height: 22px;
+  margin-left: 0;
+  margin-right: 35px;
+  border-radius: 50%;
+}
+
+.social a:hover {
+  background-color: #68513F;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .header__body .header__logo {
+    left: 7px;
+  }
+
+  .baner .baner-img {
+    margin-left: 108px;
+    min-height: 611px;
+    max-width: 640px;
+    width: 100%;
+  }
+  .baner .baner-content .baner-content__title {
+    font-size: 80px;
+    line-height: 128%;
+  }
+  .baner .baner-content .baner-content__title span {
+    font-size: 152px;
+    line-height: 104%;
+    right: -39.57px;
+    top: 220px;
+  }
+
+  .scincare {
+    margin-bottom: 230px;
+  }
+  .scincare .scincare-content {
+    margin: 240px auto 0;
+  }
+  .scincare .content__title {
+    max-width: 440px;
+  }
+  .scincare .img-first {
+    left: -0.03%;
+  }
+  .scincare .img-second {
+    left: 4%;
+    top: calc(50% - 110px + 245px);
+  }
+  .scincare .img-forth {
+    left: 71.67%;
+    top: calc(50% - 57px - 175px);
+  }
+  .scincare .img-fifth {
+    left: 68.56%;
+    top: calc(50% - 120px + 255px);
+  }
+
+  .content__title {
+    font-size: 56px;
+  }
+  .content__title span {
+    font-size: 124px;
+  }
+
+  .content__subtitle {
+    font-size: 14px;
+  }
+
+  .row {
+    --bs-gutter-x: -26.5rem !important;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .feature-products .text-box {
+    margin-right: 1px;
+  }
+
+  .card-block .img-fluid {
+    max-width: 33%;
+  }
+
+  .scinn-blog {
+    flex-direction: column;
+  }
+
+  .scinn-blog__first,
+.scinn-blog__second {
+    justify-content: space-around;
+    margin-bottom: 48px;
+  }
+
+  .footer-module .nav-menu li {
+    margin-bottom: 0;
+  }
+  .footer-module p {
+    max-width: 127px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .header__body {
+    height: 50px;
+  }
+  .header__body .header__logo {
+    position: relative;
+    left: 9px;
+    bottom: 0;
+    z-index: 3;
+  }
+  .header__body .btn-primary {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+  }
+  .header__burger span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger::before, .header__burger::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__burger.active::before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .header__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header__burger.active span {
+    transform: scale(0);
+  }
+
+  .header__menu {
+    position: fixed;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 480px;
+    background-color: #68513F;
+    padding: 70px 0 0 0;
+    transition: all 0.3s ease 0s;
+    margin: 20px 0 0 0;
+  }
+  .header__menu.active {
+    top: 0;
+  }
+  .header__menu .header__list {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .header__menu .header__list li {
+    margin: 20px 0 0 0;
+  }
+  .header__menu .header__link {
+    font-size: 24px;
+    line-height: 222%;
+  }
+
+  .baner {
+    margin-top: 58px;
+  }
+  .baner .baner-img {
+    margin-left: 0;
+    min-height: 500px;
+  }
+  .baner .baner-content {
+    margin-left: 15px;
+  }
+  .baner .baner-content .baner-content__title {
+    font-size: 64px;
+  }
+  .baner .baner-content .baner-content__title span {
+    font-size: 126px;
+    right: 20.43px;
+    top: 176px;
+    transform: rotate(13.54deg);
+  }
+  .baner .baner-content .btn-primary {
+    margin-top: 7px;
+  }
+
+  .scincare .scincare-content {
+    margin-top: 300px;
+  }
+  .scincare .content__title span {
+    left: calc(50% - 158.5px + 6.5px);
+    top: 163.67px;
+  }
+  .scincare .img-first {
+    top: calc(50% - 165px - 264.5px);
+  }
+  .scincare .img-third {
+    left: 59.97%;
+    top: calc(50% - 120px - 351.5px);
+  }
+  .scincare .img-second {
+    left: 0%;
+  }
+  .scincare .img-forth,
+.scincare .img-fifth {
+    display: none;
+  }
+  .scincare .btn-primary {
+    margin-left: 218px;
+  }
+
+  .content__title {
+    font-size: 48px;
+  }
+  .content__title span {
+    font-size: 110px;
+  }
+
+  .content__subtitle {
+    font-size: 12px;
+  }
+
+  .row {
+    --bs-gutter-x: -4.5rem !important;
+  }
+
+  .feature-products {
+    flex-direction: column;
+  }
+  .feature-products .text-box {
+    margin: 30px 0;
+  }
+
+  .brands-block {
+    margin: 50px auto 0;
+  }
+  .brands-block p {
+    margin-bottom: 40px;
+  }
+
+  .template-brands {
+    flex-direction: column;
+    max-width: 150px;
+    margin: 0 auto 40px;
+  }
+  .template-brands .img-fluid {
+    margin-bottom: 20px;
+  }
+
+  .card-block {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .card-block .img-fluid {
+    max-width: 100%;
+  }
+
+  .scinn-blog {
+    margin-bottom: 40px;
+  }
+  .scinn-blog .scinn-blog__first,
+.scinn-blog .scinn-blog__second {
+    flex-direction: column;
+    align-items: center;
+  }
+  .scinn-blog .scinn-blog__content {
+    margin: 30px auto;
+    text-align: center;
+  }
+  .scinn-blog .scinn-blog__content .btn-primary {
+    margin-top: 22px;
+  }
+
+  .footer-module {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 480px;
+    margin-bottom: 50px;
+  }
+  .footer-module p {
+    margin-bottom: 20px;
+  }
+  .footer-module .footer__title {
+    margin-top: 15px;
+  }
+
+  .logo p,
+.pages {
+    display: none;
+  }
+
+  .timetable p {
+    margin: 0 auto 9px;
+    text-align: center;
+  }
+
+  .social {
+    margin-top: 27px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .scincare .img-first {
+    left: 18.97%;
+  }
+  .scincare .img-third {
+    display: none;
+  }
+
+  .row {
+    --bs-gutter-x: -1.5rem !important;
+  }
+}/*# sourceMappingURL=style.css.map */
